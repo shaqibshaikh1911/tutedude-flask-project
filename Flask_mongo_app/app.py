@@ -9,8 +9,7 @@ client = pymongo.MongoClient("mongodb+srv://shaqibshaikh1911:ft3NEmEeu097FcXa@mo
 db = client["flaskdb"]
 collection = db["users"]
 
-
-@app.route("/api")
+@app.route("/api/shaqib")
 def get_data():
     data = list(collection.find({}, {"_id": 0}))
     return jsonify(data)
