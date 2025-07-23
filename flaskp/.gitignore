@@ -1,0 +1,9 @@
+# Node
+frontend/node_modules/
+# VSCode
+.vscode/
+# Python
+__pycache__/
+*.pyc
+# Docker
+*.env
